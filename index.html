@@ -1,0 +1,97 @@
+<!-- 
+  Name: Luke Bushuk
+  Course: Software Development 20S
+  Teacher: Mr. Hardman
+  School: PTEC
+  Date Last Modified: Thursday, Jan  19, 2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheet/main.css" />
+    <title>BikeVB.ca</title>
+    <!-- internal stylesheet for page-specific elements -->
+    <style>
+      /* 
+        Mandatory use of span to emphasize text
+          font-weight: bold; - sets the text within spans with the class of text-emphasis to be bold
+      */
+      .text-emphasis {
+        font-weight: bold;
+      }
+
+      /* 
+        Table styling 
+          margin-left: auto; - sets equal spacing on all sides of the table, which centers it
+          border: 1px solid #414141; - sets the parameters for the outline of the table. 1px of width, solid style, and a near black colour.
+          font-family: - sets the default font to roboto-regular, with the default sans-serif font as a fallback
+          border-collapse: collapse; - collapses the borders into a single border
+          margin-bottom: - sets the margin at the bottom of the table for some more spacing
+
+      */
+      table,
+      th {
+        margin: auto;
+        padding: 6px;
+        border: 1px solid #414141;
+        border-collapse: collapse;
+        font-family: roboto-regular, sans-serif;
+        margin-bottom: 50px;
+      }
+      /* 
+        styling for the content within the table
+          padding-right: 25px; - adds extra spacing on the right side of the content
+          border: 1px solid #414141; - adds a border in between the two cells of the table. parameters are the same as previous border
+      */
+      td {
+        padding-right: 25px;
+        border: 1px solid #414141;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <ul>
+          <li><a id="active" href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>BikeVB.ca</h1>
+      <hr />
+    </header>
+    <main>
+      <img
+        id="right-image"
+        src="/media/bikevb-trailer.webp"
+        alt="BikeVB trailer"
+        height="360px" />
+      <section>
+        <h2>About</h2>
+        <p>
+          BikeVB provides bicycle repair services at cottagers' homes within the
+          vehicle restricted area at Victoria Beach.
+        </p>
+      </section>
+      <hr />
+      <section>
+        <h2>History</h2>
+        <p>
+          BikeVB's cottage bike repair service began as a bike repair stand
+          parked in front of the Tennis courts at Victoria Beach. We now offer
+          repair services at cottagers' homes with the use of a mobile bicycle
+          repair trailer towed behind a bicycle.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <hr />
+      <p><u>&#169; 2025 BikeVB</u></p>
+    </footer>
+  </body>
+</html>

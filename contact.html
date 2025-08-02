@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheet/main.css" />
+    <title>BikeVB.ca</title>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <nav id="top-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a id="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Contact Us</h1>
+      <hr />
+    </header>
+    <main>
+      <br />
+      <p id="centered">
+        Use this form to contact us for repairs. Please include details of the
+        required repairs if possible.
+      </p>
+      <form action="FormToEmail.php" method="post">
+        <table cellspacing="5">
+          <tr>
+            <td>Name</td>
+            <td><input type="text" size="30" name="name" /></td>
+          </tr>
+          <tr>
+            <td>Email Address</td>
+            <td><input type="text" size="30" name="email" /></td>
+          </tr>
+          <tr>
+            <td valign="top">Comments</td>
+            <td><textarea name="comments" rows="6" cols="25"></textarea></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>
+              <input id="submit-button" type="submit" value="Send" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <p id="centered">Thank you! We will get back to you as soon as we can.</p>
+    </main>
+    <footer>
+      <hr />
+      <p><u>&#169; 2025 BikeVB</u></p>
+    </footer>
+  </body>
+</html>
