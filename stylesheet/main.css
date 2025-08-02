@@ -149,8 +149,8 @@ p {
 }
 p#centered {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5px 20px 15px 20px;
+  font-size: 1.7rem;
 }
 
 
